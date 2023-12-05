@@ -26,7 +26,7 @@ Update Late with ‘1’ for all the records that have return date later than th
     ELSE 0 
     END;
 
-<img src = "https://github.com/waasabbi/Library-Management-System/blob/main/BookLoanInfo.png" width = "600" height = "500">
+<img src = "https://github.com/waasabbi/Library-Management-System/blob/main/LateColumn.png" width = "600" height = "500">
 
 **Query 2: Add an extra column ‘LateFee’ to the Library_Branch table, decide late fee per day for each branch and update that column.**
  
@@ -48,7 +48,7 @@ Add and extra column ‘LateFee’ to Library_Branch
     END; 
 
 
-<img src = "https://github.com/damberbokati/LibraryManagementSystem_GUI/blob/main/Pictures/LateFee.png" width = "600" height = "500">
+<img src = "https://github.com/waasabbi/Library-Management-System/blob/main/LateFee.png" width = "600" height = "500">
 
 
 **Query 3: Create a view vBookLoanInfo that retrieves all information per book loan. The view should have the following attributes:**
@@ -90,7 +90,7 @@ Add and extra column ‘LateFee’ to Library_Branch
 
 
 
-<img src = "https://github.com/damberbokati/LibraryManagementSystem_GUI/blob/main/Pictures/BookLoanInfo.png" width = "600" height = "500">
+<img src = "https://github.com/waasabbi/Library-Management-System/blob/main/BookLoanInfo.png" width = "600" height = "500">
 
 ## Task 2: Create a GUI for the LMS database: 
   
@@ -140,11 +140,11 @@ Result:
 
 The user will be prompted to enter following information: Branch ID, Book Id, Book Id, Card No. The system then generates the Date Out and Due Date by adding 1 month to the Date Out. Then, these information are used to add new entries to the Book_Loan Table. The Book_Copies tables is then updated to reflect the new loan.
 
-<img src = "https://github.com/damberbokati/LibraryManagementSystem_GUI/blob/main/Pictures/LateColumn.png" width = "600" height = "500">
+<img src = "https://github.com/waasabbi/Library-Management-System/blob/main/LateColumn.png" width = "600" height = "500">
 
 Upon hitting Submit in above window, a screen with updated Book_Copies will be displayed.
 
-<img src = "https://github.com/damberbokati/LibraryManagementSystem_GUI/blob/main/Pictures/LateColumn.png" width = "600" height = "500">
+<img src = "https://github.com/waasabbi/Library-Management-System/blob/main/LateColumn.png" width = "600" height = "500">
 
 
 **2. Add information about a new Borrower. Do not provide the CardNo in your query. Output the card number as if you are giving a new library card. Submit your editable SQL query that your code executes.**
@@ -175,12 +175,12 @@ Result:
 The user will be prompted to enter following information: Name, Address, Phone number. Then provided information is used to add a new entry to the BORROWER table.
 
 
-<img src = "https://github.com/damberbokati/LibraryManagementSystem_GUI/blob/main/Pictures/LateColumn.png" width = "600" height = "500">
+<img src = "https://github.com/waasabbi/Library-Management-System/blob/main/LateColumn.png" width = "600" height = "500">
 
 Upon pressing Submit, a screen with Card_no assigned to the new Borrower will be displayed.
 
 
-<img src = "https://github.com/damberbokati/LibraryManagementSystem_GUI/blob/main/Pictures/LateColumn.png" width = "600" height = "500">
+<img src = "https://github.com/waasabbi/Library-Management-System/blob/main/LateColumn.png" width = "600" height = "500">
  
 **3. Add a new Book with publisher (use can use a publisher that already exists) and author information to all 5 branches with 5 copies for each branch. Submit your editable SQL query that your code executes.**
  
@@ -207,11 +207,11 @@ Add Book to all 5 branches with 5 copies for each branch.
 
 Result: The use is prompted for the following information: Title, Author, Publisher. Then these informations are used to add a new book to BOOK table and Add copies to all branches.
 
-<img src = "https://github.com/damberbokati/LibraryManagementSystem_GUI/blob/main/Pictures/LateColumn.png" width = "600" height = "500">
+<img src = "https://github.com/waasabbi/Library-Management-System/blob/main/LateColumn.png" width = "600" height = "500">
 
 Upon pressing Submit button, a new screen with updated Book Table will be displayed.
 
-<img src = "https://github.com/damberbokati/LibraryManagementSystem_GUI/blob/main/Pictures/LateColumn.png" width = "600" height = "500">
+<img src = "https://github.com/waasabbi/Library-Management-System/blob/main/LateColumn.png" width = "600" height = "500">
 
 
 **4. Given a book title list the number of copies loaned out per branch.** 
@@ -229,13 +229,13 @@ Result
 The user is prompted for the following information: Book Title. Then the query is run to list the number of copies loaned out per branch.
 
 
-<img src = "https://github.com/damberbokati/LibraryManagementSystem_GUI/blob/main/Pictures/LateColumn.png" width = "600" height = "500">
+<img src = "https://github.com/waasabbi/Library-Management-System/blob/main/LateColumn.png" width = "600" height = "500">
 
 
 Upon pressing Submit button, a screen with information about he specified book will be displayed. If the specified books are not being loaned out from any branch, no output will be displayed.
 
 
-<img src = "https://github.com/damberbokati/LibraryManagementSystem_GUI/blob/main/Pictures/LateColumn.png" width = "600" height = "500">
+<img src = "https://github.com/waasabbi/Library-Management-System/blob/main/LateColumn.png" width = "600" height = "500">
 
 
 
@@ -267,12 +267,12 @@ Result
 
 The user will be prompted for start and end date. Then the provided dates are used to run the query.
 
-<img src = "https://github.com/damberbokati/LibraryManagementSystem_GUI/blob/main/Pictures/LateColumn.png" width = "600" height = "500">
+<img src = "https://github.com/waasabbi/Library-Management-System/blob/main/LateColumn.png" width = "600" height = "500">
 
 
 Upon pressing Submit, a screen with detailed information of all the loaned-out books will be displayed.
 
-<img src = "https://github.com/damberbokati/LibraryManagementSystem_GUI/blob/main/Pictures/LateColumn.png" width = "600" height = "500">
+<img src = "hhttps://github.com/waasabbi/Library-Management-System/blob/main/LateColumn.png" width = "600" height = "500">
 
 
 **6. The fifth requirement is to return the view’s results by applying the following criteria:**
@@ -306,12 +306,12 @@ Result
 The user is prompted for the following information: Card_no, or Name, or Part of their name. Then based on the information provided a query to display a detailed information about their books they have checkout and late fees will be displayed.
 
 
-<img src = "https://github.com/damberbokati/LibraryManagementSystem_GUI/blob/main/Pictures/LateColumn.png" width = "600" height = "500">
+<img src = "https://github.com/waasabbi/Library-Management-System/blob/main/LateColumn.png" width = "600" height = "500">
 
 
 Upon pressing Submit button, a screen with detailed information will be displayed.
 
-<img src = "https://github.com/damberbokati/LibraryManagementSystem_GUI/blob/main/Pictures/LateColumn.png" width = "600" height = "500">
+<img src = "https://github.com/waasabbi/Library-Management-System/blob/main/LateColumn.png" width = "600" height = "500">
 
 
 
@@ -348,12 +348,12 @@ Result
 The user will be prompted for the following information: Book_id, Title of the book, or Par of the book title. Using the provided info above query is run.
 
 
-<img src = "https://github.com/damberbokati/LibraryManagementSystem_GUI/blob/main/Pictures/LateColumn.png" width = "600" height = "500">
+<img src = "https://github.com/waasabbi/Library-Management-System/blob/main/LateColumn.png" width = "600" height = "500">
 
 
 Upon pressing Submit button, a new screen with the detailed book information will be displayed.
 
-<img src = "https://github.com/damberbokati/LibraryManagementSystem_GUI/blob/main/Pictures/LateColumn.png" width = "600" height = "500">
+<img src = "https://github.com/waasabbi/Library-Management-System/blob/main/LateColumn.png" width = "600" height = "500">
 
 
 This is the home Screen of the Library Management System
