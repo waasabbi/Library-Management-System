@@ -26,7 +26,7 @@ Update Late with ‘1’ for all the records that have return date later than th
     ELSE 0 
     END;
 
-<img src = "https://github.com/damberbokati/LibraryManagementSystem/blob/main/Pictures/LateColumn.png" width = "600" height = "500">
+<img src = "https://github.com/waasabbi/LibraryManagementSystem_GUI/blob/main/Pictures/LateColumn.png" width = "600" height = "500">
 
 **Query 2: Add an extra column ‘LateFee’ to the Library_Branch table, decide late fee per day for each branch and update that column.**
  
